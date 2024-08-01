@@ -1,0 +1,82 @@
+l = ('----------------------------------------------')
+print(l)
+print(' BEM VINDO A NORUEGA, ESCOLHA SUA ACOMODAÇAO')
+print(l)
+print('''Aqui estao as opçoes de acomodaçoes!
+        1 - Chalé
+        2 - Casa
+        3 - Apto
+        4 - Trailer
+        5 - Cabana ''')
+
+escolha = str(input(' Escolha a sua opçao de moradia: '))
+if escolha == '1':
+            print(' Voce escolheu Chalé, ótima opçao!')
+            print(' O valor dessa moradia é em cerca de U$2500.')
+            print(' Aproveite sua moradia!')
+elif escolha == '2':
+            print(' Voce escolheu Casa, ótima opçao!')
+            print(' O valor dessa moradia é em cerca de U$3500.')
+            print(' Aproveite sua moradia!')
+elif escolha == '3':
+            print(' Voce escolheu Apto, ótima opçao!')
+            print(' O valor dessa moradia é em cerca de U$2000.')
+            print(' Aproveite sua moradia!')
+elif escolha == '4':
+            print(' Voce escolheu Trailer, ótima opçao!')
+            print(' O valor dessa moradia é em cerca de U$1500.')
+            print(' Aproveite sua moradia!')
+elif escolha == '5':
+            print(' Voce escolheu Cabana, ótima opçao!')
+            print(' O valor dessa moradia é em cerca de U$1000.')
+            print(' Aproveite sua moradia!')
+else:
+            print(' Voce nao escolheu nenhuma opçao disponivel, por favor, retorne ao inicio e escolha uma opçao valida!')
+print(l)
+print(' Escolha sua localizaçao! ')
+print(l)
+print (''' Aqui está as localizaçoes disponiveis em nosso belo país, sinta-se a vontade!
+       1 - Cidade
+       2 - Vilas 
+       3 - Montanhas
+       4 - Litoral ''')
+print(l)
+loc = str(input(' Escolha sua localizaçao: '))
+if loc == '1':
+            print(' Voce escolheu a cidade, a parte mais cara do país! Muito bem!')
+            print(' Na cidade voce terá diversos beneficios!')
+            print(' O valor aproximado das moradias da cidade, é de U$3500')
+elif loc == '3':
+            print(' Voce escolheu as montanhas, a parte mais intrigante do nosso país! Muito bem!')
+            print(' Na montanha voce terá diversas paisagens unicas!')
+            print(' O valor aproximado das moradias das montanhas, é de U$2500')
+elif loc == '2':
+            print(' Voce escolheu as Vilas, a parte mais simples e humilde do país! Muito bem!')
+            print(' Nas vilas voce terá diversas amizades e pessoas simples!')
+            print(' O valor aproximado das moradias nas Vilas , é de U$2000')
+elif loc == '4':
+            print(' Voce escolheu o Litoral, a parte mais pacífica do país! Muito bem!')
+            print(' No litoral voce terá uma paz intrinseca em seu cotidiano!!')
+            print(' O valor aproximado nas moradias do Litoral, é de U$1500')
+else:
+            print(' Voce nao escolheu nenhuma localizaçao disponivel.')
+            print(' Por favor, retorne ao começo, e escolha as opçoes cabíves. Muito obrigado!')
+print(l)
+print(' PAGAMENTO DA MORADIA!')
+print(l)
+print(''' Opçoes de pagamento:'
+        1 - Cartao de débito
+        2 - Cartao de crédito
+        3 - Dinheiro ''')
+money = str(input(' Escolha sua forma de pagamento: '))
+if money == '1':
+            print('O valor a ser pago terá uma taxa de 3%')
+            print(' Pagamento efetuado, bem vindo a noruega!')
+elif money == '2':
+            print(' O valor a ser pago terá uma taxa de 5%')
+            print(' Pagamento efetuado, bem vindo a noruega!')
+elif money == '3':
+            print(' Como o senhor pagou no dinheiro, nao haverá taxas!')
+            print(' Pagamento efetuado, bem vindo a noruega!')
+else:
+            print(' Voce nao selecionou uma forma de pagamento, por favor, retorne ao começo e escolha uma forma de pagamento plausivel!')
